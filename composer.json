@@ -14,14 +14,15 @@
         }
     ],
     "require": {
-        "php": ">=5.2"
+        "php": ">=5.2",
+        "ext-json" : "*"
     },
     "require-dev": {
         "php": ">=5.2"
     },
     "autoload":{
         "psr-4":{
-            "DNI":"src/"
+            "DNI\\":"src/"
         }
     }
 }

@@ -17,7 +17,7 @@ class DNI
         {
             return (object) [
                 'dni' => $info['dni'],
-                'cui' => $info['dni'],
+                'cui' => $info['cui'],
                 'paterno' => $info['apellido_paterno'],
                 'materno' => $info['apellido_materno'],
                 'nombres' => $info['nombres'],
