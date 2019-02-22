@@ -1,0 +1,27 @@
+{
+    "name": "rubensaid/dni",
+    "description": "Package para obtener datos a partir de DNI de Peru",
+    "type": "library",
+    "keywords": ["Reniec", "Peru", "PHP", "Consulta", "DNI", "Buscar"],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ruben Felix",
+            "email": "rubensaid12@gmail.com",
+            "homepage" : "https://linkedin.com/in/rubensaid",
+            "role" : "Developers"
+        }
+    ],
+    "require": {
+        "php": ">=5.2"
+    },
+    "require-dev": {
+        "php": ">=5.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "DNI":"src/"
+        }
+    }
+}
