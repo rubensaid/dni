@@ -18,9 +18,9 @@ class DNI
             return (object) [
                 'dni' => $info['dni'],
                 'cui' => $info['dni'],
-                '$paterno' => $info['apellido_paterno'],
-                '$materno' => $info['apellido_materno'],
-                '$nombres' => $info['nombres'],
+                'paterno' => $info['apellido_paterno'],
+                'materno' => $info['apellido_materno'],
+                'nombres' => $info['nombres'],
                 ];
         }
     }
