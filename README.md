@@ -4,7 +4,7 @@ Package para consultar numero de DNI de Peru
 ### Metodo de Uso
 ```sh
 <?php
-	user rubensaid/DNI
+	use rubensaid/DNI
 	
 	$person = DNI::find($dni);
 ?>
